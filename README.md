@@ -2,6 +2,8 @@
 
 *View and investigate various fractals using MATLAB and an NVIDIA GPU*
 
+[![View GPU Fractal Explorer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/86133-gpu-fractal-explorer)
+
 This application allows you to explore several different fractals in MATLAB with the help of a capable NVIDIA GPU. It was inspired by Cleve Moler's article <a href="https://www.mathworks.com/company/newsletters/articles/gpu-enables-obsession-with-fractals.html">GPU Enables Obsession with Fractals</a>, where each fractal has the common pattern that every location (i.e. pixel in the resulting image) can be calculated independently. This makes them trivially parallel and eminently suitable for acceleration on the GPU using the <a href="https://www.mathworks.com/help/parallel-computing/gpuarray.arrayfun.html">gpuArray/arrayfun</a> feature. 
 
 The following fractals are included:
